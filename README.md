@@ -15,7 +15,7 @@ Under src--test--java --- As I have used cucumber BDD the different components l
 **Hooks** Hooks class is maintained under steps package.Driver setup and teardown methods are maintained in this class.
 **Process for TestExecution**---**runner** runner package has TestRunner class where tests are executable from this class.It contains the location of feature file,steps and cucumber reports this was called inside the plugin.
 **Reports**---Whenever the testcases are executed cucumber html report is generated under the target folder--cucumber html report--index.html
-**Validations**There is an attribute with the name checked for that particular toggle,when I validate that checked attribute is set to checked it was returning true.
+**Validations**---There is an attribute with the name checked for that particular toggle,when I validate that checked attribute is set to checked it was returning true.
 
 **Issues Faced**:
 There was a synchronisation issue after login, when I click on that welcome laxmi dropdown and then I click on my account at that point I found synchronisation issue.So I tried to resolve it with explicit waits it was not working and I also tried with javascript executor to click on that particular link but none of them worked that is why I have used thread.sleep.
