@@ -1,0 +1,225 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-22T13:14:43.876Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7700896834,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify login with valid credentials",
+        "description": "",
+        "id": "login-to-iceland-application;verify-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 466012856,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7156566739,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to url \"https://www.iceland.co.uk/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.iceland.co.uk/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.i_navigate_to_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8176934,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be navigated to home page",
+            "match": {
+              "location": "StepDefinitions.i_should_be_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 251045861,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on signin link",
+            "match": {
+              "location": "StepDefinitions.i_click_on_signin_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12164602699,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter email as \"lnagabandi@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lnagabandi@gmail.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinitions.i_enter_email_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1504110878,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter password as \"Lakshmi505\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lakshmi505\"",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.i_enter_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1173897981,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on signinsecurely button",
+            "match": {
+              "location": "StepDefinitions.i_click_on_signinsecurely_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3382137319,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "StepDefinitions.i_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5163595448,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on welcome back link",
+            "match": {
+              "location": "StepDefinitions.i_click_on_welcome_back_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1407371414,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on my account link",
+            "match": {
+              "location": "StepDefinitions.i_click_on_my_account_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 481173062,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should be navigated to account details page",
+            "match": {
+              "location": "StepDefinitions.i_should_be_navigated_to_account_details_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7962043351,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on communication preferences link",
+            "match": {
+              "location": "StepDefinitions.i_click_on_communication_preferences_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1361817946,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be navigated to update communication preferences page",
+            "match": {
+              "location": "StepDefinitions.i_should_be_navigated_to_update_communication_preferences_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 168645834,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Iceland marketing toggler should be set to true",
+            "match": {
+              "location": "StepDefinitions.iceland_marketing_toggler_should_be_set_to_true()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login to iceland application",
+    "description": "  In order to login to application\n  As a valid user\n  I should provide valid email and password",
+    "id": "login-to-iceland-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]

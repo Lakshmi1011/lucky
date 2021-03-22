@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="51.112596">
+<testcase classname="Login to iceland application" name="Verify login with valid credentials" time="51.112596">
+<system-out><![CDATA[Given I navigate to url "https://www.iceland.co.uk/"........................passed
+Then I should be navigated to home page.....................................passed
+When I click on signin link.................................................passed
+And I enter email as "lnagabandi@gmail.com".................................passed
+And I enter password as "Lakshmi505"........................................passed
+And I click on signinsecurely button........................................passed
+Then I should be logged in successfully.....................................passed
+When I click on welcome back link...........................................passed
+And I click on my account link..............................................passed
+Then I should be navigated to account details page..........................passed
+When I click on communication preferences link..............................passed
+Then I should be navigated to update communication preferences page.........passed
+And Iceland marketing toggler should be set to true.........................passed
+]]></system-out>
+</testcase>
+</testsuite>
